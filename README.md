@@ -7,44 +7,52 @@
   />
 </p>
 
-DevOps Engineer focused on AWS, IaC, and reliable delivery.
+DevOps Engineer focused on AWS, Infrastructure as Code, and secure, reliable delivery.
 
-[ThreatModel Project](https://github.com/AbbasHusseinOps/ThreatModel-app) • [Email](mailto:abbas.husseinops@gmail.com)
+[URL Shortener Platform](https://github.com/AbbasHusseinOps/URL-ShortenerApp) • [Threat Model](https://github.com/AbbasHusseinOps/ThreatModel-app) • [Email](mailto:abbas.husseinops@gmail.com)
 
 ---
 
 ## Snapshot
-- Containerized services running on AWS ECS
-- Provisioned via Terraform with policy guardrails
-- Delivery through GitHub Actions with security checks (Checkov, Trivy)
+- Cloud-native platforms running on AWS ECS Fargate
+- Multi-environment (dev/stage/prod) infrastructure provisioned with Terraform
+- Secure-by-design networking with VPC endpoints and AWS WAF
+- Automated CI/CD with GitHub Actions and CodeDeploy (blue/green)
 - Clear, maintainable automation over complexity
 
 ---
 
 ## Tech Stack
 
-<!-- Subtle color via shields; no flashy visuals -->
 ![AWS ECS](https://img.shields.io/badge/AWS%20ECS-232F3E?logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
+![AWS WAF](https://img.shields.io/badge/AWS%20WAF-232F3E?logo=amazon-aws&logoColor=white)
 ![Checkov](https://img.shields.io/badge/Checkov-2D2D2D)
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA)
 
 ---
 
-## Featured: Threat Model
-A living threat model paired with deployments. Documents threats, mitigations, and residual risk; integrated into CI so design drift and dependency risks surface early.  
+## Featured: Cloud-Native URL Shortener Platform
+A production-grade URL shortening service built with AWS architecture, security, and deployment practices.
+
+- Deployed on AWS ECS Fargate behind an Application Load Balancer
+- Multi-environment architecture (dev/stage/prod) defined with Terraform
+- Blue/green deployments using AWS CodeDeploy for zero-downtime releases
+- AWS WAF protecting against common web threats (OWASP Top 10)
+- Private networking via VPC endpoints to reduce public exposure
+- CI/CD pipelines with GitHub Actions and container security scanning
+
+https://github.com/AbbasHusseinOps/URL-ShortenerApp
+
+---
+
+## Also Featured: Threat Model
+A living threat model designed to evolve alongside deployments. Documents threats, mitigations, and residual risk, and integrates security thinking directly into the delivery lifecycle.
+
+- Threat modelling aligned with deployed infrastructure
+- CI-integrated checks to surface design drift and dependency risk
+- Focus on clarity, traceability, and maintainability
+
 https://github.com/AbbasHusseinOps/ThreatModel-app
-
----
-
-## What I Build
-- Production-ready ECS services with least-privilege IAM and secure networking
-- Pipelines that test, build, scan IaC and images, and promote with approvals
-- Documentation and diagrams for confident day-2 operations
-
----
-
-## Contact
-abbas.husseinops@gmail.com
